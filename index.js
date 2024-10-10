@@ -37,6 +37,8 @@ headerLogoConatiner.addEventListener('click', () => {
   location.href = 'index.html'
 })
 
+// >>>>>>>>>>>>>>>>>> FORMS FEEDBACK <<<<<<<<<<<<<<<<<<<
+
 document.querySelector('.contact__form').addEventListener('submit', function(event) {
   event.preventDefault(); // Prevent default form submission
 
